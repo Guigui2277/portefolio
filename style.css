@@ -1,0 +1,25 @@
+body{
+    background-color: aliceblue;
+}
+
+header{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+header ul {
+    background-color: antiquewhite;
+    list-style: none;
+
+}
+
+header ul li{
+    background-color: yellow;
+    border-radius: 50px;
+    display: inline;
+    padding: 10px 15px;
+}
+
+
+/*Section moi*/
