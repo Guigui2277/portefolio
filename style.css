@@ -2,23 +2,33 @@ body{
     background-color: aliceblue;
 }
 
-header{
+header nav{
+    background-color: rgba(255, 255, 255, 0.4);
+    top: 0;
+    width: auto;
+    position: fixed;
     display: flex;
-    align-content: center;
-    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    z-index: 100;
 }
 
-header ul {
-    background-color: antiquewhite;
-    list-style: none;
 
+
+nav ul{
+    background-color: #d9d9d961;
+    backdrop-filter: blur(1px);
+    padding: 5px 10px;
+    border-radius: 30px;
+    display: inline-flex;
 }
 
 header ul li{
-    background-color: yellow;
+    background-color: rgba(0, 0, 0, 0.133);
     border-radius: 50px;
-    display: inline;
-    padding: 10px 15px;
+    display: inline-flex;
+    justify-content: center;
+    padding: 5px 40px;
 }
 
 
