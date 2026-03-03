@@ -2,9 +2,15 @@ body{
     background-color: aliceblue;
 }
 
+header{
+    margin-bottom: 1em;
+}
+
 header nav{
     background-color: rgba(255, 255, 255, 0.4);
     top: 0;
+    left: 50%;
+    right: 50%;
     width: auto;
     position: fixed;
     display: flex;
@@ -13,12 +19,10 @@ header nav{
     z-index: 100;
 }
 
-
-
 nav ul{
     background-color: #d9d9d961;
     backdrop-filter: blur(1px);
-    padding: 5px 10px;
+    padding: 5px 15px;
     border-radius: 30px;
     display: inline-flex;
 }
@@ -27,9 +31,11 @@ header ul li{
     background-color: rgba(0, 0, 0, 0.133);
     border-radius: 50px;
     display: inline-flex;
-    justify-content: center;
-    padding: 5px 40px;
+    align-items: center;
+    padding: 5px 45px;
+    margin: 0;
 }
 
 
-/*Section moi*/
+/*Section principale*/
+
