@@ -7,7 +7,6 @@
 }
 
 body{
-    background-color: aliceblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -15,29 +14,14 @@ header{
     margin-bottom: 1em;
 }
 
-header nav{
-    background-color: rgba(255, 255, 255, 0.4);
-    top: 0;
-    left: 50%;
-    right: 50%;
-    width: auto;
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    border-radius: 50px;
-    z-index: 100;
-}
-
 nav ul{
-    background-color: #d9d9d961;
-    backdrop-filter: blur(1px);
-    padding: 5px 15px;
+    background-color: #dedede37;
     border-radius: 30px;
     display: inline-flex;
+    align-items: center;
 }
 
 header ul li{
-    background-color: rgba(0, 0, 0, 0.133);
     border-radius: 50px;
     display: inline-flex;
     align-items: center;
@@ -46,7 +30,7 @@ header ul li{
 }
 
 nav li img{
-    margin: 0;
+    margin-right: 10px;
     height: 20px;
     width: auto;
     order: -1;
@@ -62,6 +46,15 @@ h1{
     width: auto;
     background-color: rgb(23, 239, 127);
     border-radius: 20px;
+}
+
+#introduction div{
+    
+}
+
+#introduction img{
+    width: 50px;
+    height: auto;
 }
 
 
